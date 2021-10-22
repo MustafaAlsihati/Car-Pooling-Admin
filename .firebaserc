@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "carpooling-2e766"
+  },
+  "targets": {
+    "carpooling-2e766": {
+      "hosting": {
+        "portal": [
+          "admin-2e766"
+        ]
+      }
+    }
+  }
+}

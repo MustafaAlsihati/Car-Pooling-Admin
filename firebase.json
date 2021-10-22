@@ -1,0 +1,26 @@
+{
+  "hosting": [
+    {
+      "traget": "portal",
+      "site": "admin-2e766",
+      "public": "public",
+      "cleanUrls": true,
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    }
+  ],
+  "emulators": {
+    "database": {
+      "port": 9000
+    },
+    "hosting": {
+      "port": 5000
+    },
+    "functions": {
+      "port": 5001
+    }
+  }
+}
